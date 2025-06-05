@@ -11,7 +11,7 @@ public class Vehicle {
     private String colore;
     private String modello;
     private String utente;
-    private static final String CATEGORIA[] = {"PULLMAN", "MACCHINA", "SCOOTER"};
+    private String categoria;
 
     public String getTarga() {
         return targa;
@@ -43,5 +43,13 @@ public class Vehicle {
 
     public void setUtente(String utente) {
         this.utente = utente;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
     }
 }

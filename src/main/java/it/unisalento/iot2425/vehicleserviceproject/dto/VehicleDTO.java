@@ -6,6 +6,8 @@ public class VehicleDTO {
     private String color;
     private String model;
     private String user;
+    private String category;
+
 
     public String getPlate() {
         return plate;
@@ -37,5 +39,13 @@ public class VehicleDTO {
 
     public void setUser(String user) {
         this.user = user;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 }
